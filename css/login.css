@@ -1,0 +1,36 @@
+
+/* css reset */
+
+*{ margin: 0; padding: 0;}
+a{ text-decoration: none;}
+img{ display: block;}
+ul,ol{ list-style: none;}
+
+/* css common */
+
+.l{ float: left;}
+.r{float: right;}
+.clear::after{display: block; content: ""; clear: both;}
+.container{ width: 1100px; margin: 0 auto; position: relative;}
+.container-fluid{ position: relative;}
+body{ background: white;}
+#white{ background: white; overflow: hidden;}
+input{ background: none; outline: none; border: none;}
+
+/* header */
+
+#header{ margin-top: 25px; height: 48px;}
+
+/* login */
+
+#login{ width: 348px; height: 282px; margin-top: 87px;}
+#login ul{ height: 30px;}
+#login ul li{ width: 173px; height: 29px; text-align: center; font-size: 24px; line-height: 29px; float: left; cursor: pointer;}
+#login ul li.active{ color: #f76600;}
+#login ul li:first-of-type{ border-right: 2px solid #e0e0e0; }
+#login ol{ margin-top: 27px;}
+#login ol li{ display: none; width: 100%;}
+#login ol li.active{ display: block;}
+#login ol li input{ width: 346px; height: 48px; border: 1px solid #e0e0e0; font-size: 20px; text-indent: 10px; margin-bottom: 15px;}
+#login ol li button{ width: 348px; height: 48px; background: #ff6700; font-size: 16px; text-align: center; margin-bottom: 15px;}
+#login ol li img{ width: 180px; height: 180px; margin-top: 50px; margin: 0 auto;}

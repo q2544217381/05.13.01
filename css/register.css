@@ -1,0 +1,28 @@
+
+/* css reset */
+
+*{ margin: 0; padding: 0;}
+a{ text-decoration: none;}
+img{ display: block;}
+ul,ol{ list-style: none;}
+
+/* css common */
+
+.l{ float: left;}
+.r{float: right;}
+.clear::after{display: block; content: ""; clear: both;}
+.container{ width: 854px; margin: 0 auto; position: relative;  background: white;}
+.container-fluid{ position: relative;}
+body{ background: #f5f5f5;}
+input,button{ outline: none; background: none;}
+
+/* css d */
+
+#d{ width: 332px; height: 650px; margin: 145px auto;}
+#d>img{ width: 49px; margin: 0 auto;}
+#d p{ font-size: 14px;line-height: 30px;}
+#d p.title{ text-align: center; line-height: 30px; font-size: 30px; margin-top: 48px; margin-bottom: 34px;}
+#d input{ width: 330px; height: 40px; border: 1px solid #e8e8e8; text-indent: 10px;}
+#d div.vc{ width: 90px; height: 40px; font-size: 20px; line-height: 40px; text-align: center; border: 1px solid #e8e8e8; margin-top: 10px; display: inline-block;}
+#d button.kanbuqing{ width: 120px; height: 40px; font-size: 16px; line-height: 40px; text-align: center; background: #ff6700;}
+#d button.reg{ width: 330px; height: 40px; background: #ff6700; font-size: 16px; line-height: 40px; text-align: center; margin-top: 10px;}

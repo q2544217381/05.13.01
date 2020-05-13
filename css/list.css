@@ -1,0 +1,41 @@
+
+/* css reset */
+
+*{ margin: 0; padding: 0;}
+a{ text-decoration: none;}
+img{ display: block;}
+ul,ol{ list-style: none;}
+
+/* css common */
+
+.l{ float: left;}
+.r{float: right;}
+.clear::after{display: block; content: ""; clear: both;}
+.container{ width: 1050px; margin: 0 auto; position: relative;}
+.container-fluid{ position: relative;}
+body{ background: #f5f5f5;}
+#white{ background: white; overflow: hidden;}
+
+/* css nav */
+
+#nav{ background: #333333;}
+#nav div{ font-size: 0;}
+#nav div a{ display: inline-block; color: #b0b0a4; font-size: 12px; line-height: 40px;}
+#nav div section a:last-of-type{ width: 120px; height: 40px; text-align: center; background: #424242; margin-left: 25px;}
+#nav div span{ display: inline-block; font-size: 12px; margin: 0 8px 0 8px; color: #393f3f; line-height: 40px;}
+
+/* list */
+#list h2{ height: 100px; line-height: 100px; font-size: 24px;}
+#list ul::after{ content: ''; display: block; clear: both;}
+#list ul li{ width: 500px; float: left; margin-bottom: 50px;}
+#list ul li:nth-of-type(2n){ float: right;}
+#list ul li div.image{ width: 500px; height: 500px;}
+#list ul li div.image img{ height: 500px; margin: 0 auto;}
+#list ul li div.introduce{ position: relative; height: 170px; overflow: hidden; background: skyblue; padding-left: 15px;}
+#list ul li div.introduce p.productName{ margin-top: 40px; font-size: 24px; line-height: 24px; color: #474747; width: 70%;}
+#list ul li div.introduce p.productCharacteristic{ margin-top: 8px; font-size: 14px; color: #474747; line-height: 14px;}
+#list ul li div.introduce div.price{ font-size: 24px; color: #ff6700; position: absolute; top: 30px; right: 15px; width: 120px; height: 24px; line-height: 24px; text-align: center;}
+#list ul li div.introduce a.buy{ font-size: 20px; display: block; color: black; position: absolute; top: 65px; right: 15px; width: 120px; height: 30px; line-height: 30px; text-align: center; background: #ff6700; cursor: pointer;}
+div.M-box{ width: 450px; margin: 0 auto; margin-bottom: 20px;}
+div.M-box span{ width: 50px; height: 50px; color: white; background: hotpink; display: inline-block; text-align: center; line-height: 50px;}
+div.M-box a{ width: 50px; height: 50px; color: white; background: gray; display: inline-block; text-align: center; line-height: 50px;}
